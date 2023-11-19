@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #999898;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 2em;
+  font-size: 2em;
+}
+
+.containers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25em;
+  padding: 2em;
+}
+
+.container{
+  background-color: rgb(181, 181, 181);
+  border: 5px  solid #000;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.description{
+  padding: 2em;
+}
